@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>从今天起，记录时间的声音</title>
+    <url>/2025/02/14/seshi/</url>
+    <content><![CDATA[<p>大家好！我是Mr.Yang，一名热爱创作与分享的灵魂写手。我的个人博客是我表达想法、记录生活、探索世界的一方小天地。</p>
+<p>在这里，我会分享我对生活的感悟、对世界的思考，以及那些让我怦然心动的故事和观点。<br>无论是文字、影像，还是其他形式的创意表达，我都希望能通过这个平台，与你一起发现更多的美好与可能。</p>
+<p>如果你喜欢我的内容，不妨留下你的足迹；如果你有任何想法或建议，我也非常乐意听听你的声音。让我们一起，在文字的海洋中航行，碰撞出思想的火花！</p>
+<h3 id="技术栈速览"><a href="#技术栈速览" class="headerlink" title="技术栈速览"></a>技术栈速览</h3><pre><code class="language-bash">静态生成: Hexo | 主题: Ayer
+部署: GitHub Pages | CI: GitHub Actions
+</code></pre>
+]]></content>
+  </entry>
+  <entry>
     <title>关于搭建这个博客的过程</title>
     <url>/2025/02/15/guanyvjianzhan/</url>
     <content><![CDATA[<h2 id="本地建站"><a href="#本地建站" class="headerlink" title="本地建站  "></a>本地建站  </h2><p>其实一开始我是打算用家里的一台amd a4-3300的电脑配合ipv6使用宝塔面板搭建本地服务器，但是这个电脑太tm老了。在更换新内存条和cpu之后要么没反应要么按一下开机键cpu风扇转一下？我估计是主板坏了，换个新的要三十多，当时我不打算为这破玩意再花钱毕竟那玩意年纪快赶我大了。</p>
@@ -18,16 +29,5 @@
       <categories>
         <category>科技区</category>
       </categories>
-  </entry>
-  <entry>
-    <title>从今天起，记录时间的声音</title>
-    <url>/2025/02/14/seshi/</url>
-    <content><![CDATA[<p>大家好！我是Mr.Yang，一名热爱创作与分享的灵魂写手。我的个人博客是我表达想法、记录生活、探索世界的一方小天地。</p>
-<p>在这里，我会分享我对生活的感悟、对世界的思考，以及那些让我怦然心动的故事和观点。<br>无论是文字、影像，还是其他形式的创意表达，我都希望能通过这个平台，与你一起发现更多的美好与可能。</p>
-<p>如果你喜欢我的内容，不妨留下你的足迹；如果你有任何想法或建议，我也非常乐意听听你的声音。让我们一起，在文字的海洋中航行，碰撞出思想的火花！</p>
-<h3 id="技术栈速览"><a href="#技术栈速览" class="headerlink" title="技术栈速览"></a>技术栈速览</h3><pre><code class="language-bash">静态生成: Hexo | 主题: Ayer
-部署: GitHub Pages | CI: GitHub Actions
-</code></pre>
-]]></content>
   </entry>
 </search>
