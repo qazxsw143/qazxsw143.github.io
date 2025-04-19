@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>关于搭建这个博客的过程 |  杨同学的秘密基地</title>
+      <title>Archives: 2025/4 |  杨同学的秘密基地</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/favicon.ico" />
@@ -56,179 +56,52 @@
       
     <main class="content on">
       <section class="outer">
-  <article
-  id="post-guanyvjianzhan"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
+  
+  
+  <article class="articles">
     
-    <header class="article-header">
+    
+    <h1 class="page-type-title">2025/4</h1>
+    
+    
+  
+  
+  
+  
+  
+  
+  <div class="archives-wrap">
+    <div class="archive-year-wrap">
+      <a href="/archives/2025" class="archive-year">2025</a>
+    </div>
+    <div class="archives">
+      
+      <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      <a href="/2025/04/19/%E8%93%9D%E7%89%99%E5%BC%B9%E7%AA%97%E6%94%BB%E5%87%BB%E8%8B%B9%E6%9E%9C%E8%AE%BE%E5%A4%87/" class="archive-article-date">
+  <time datetime="2025-04-19T03:09:07.000Z" itemprop="datePublished">04/19</time>
+</a>
        
-<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  关于搭建这个博客的过程
-</h1>
+<h2 itemprop="name">
+  <a class="archive-article-title" href="/2025/04/19/%E8%93%9D%E7%89%99%E5%BC%B9%E7%AA%97%E6%94%BB%E5%87%BB%E8%8B%B9%E6%9E%9C%E8%AE%BE%E5%A4%87/"
+    >蓝牙弹窗攻击苹果设备</a> 
+</h2>
  
 
-      
     </header>
-     
-    <div class="article-meta">
-      <a href="/2025/02/15/guanyvjianzhan/" class="article-date">
-  <time datetime="2025-02-15T12:37:42.000Z" itemprop="datePublished">2025-02-15</time>
-</a> 
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E7%A7%91%E6%8A%80%E5%8C%BA/">科技区</a>
+    
+    
   </div>
-  
-<div class="word_count">
-    <span class="post-time">
-        <span class="post-meta-item-icon">
-            <i class="ri-quill-pen-line"></i>
-            <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">969</span>
-        </span>
-    </span>
-
-    <span class="post-time">
-        &nbsp; | &nbsp;
-        <span class="post-meta-item-icon">
-            <i class="ri-book-open-line"></i>
-            <span class="post-meta-item-text"> Reading time≈</span>
-            <span class="post-count">3 min</span>
-        </span>
-    </span>
-</div>
- 
-    </div>
-      
-    <div class="tocbot"></div>
-
-
-
-
-  
-    <div class="article-entry" itemprop="articleBody">
-       
-  <h2 id="本地建站"><a href="#本地建站" class="headerlink" title="本地建站  "></a>本地建站  </h2><p>其实一开始我是打算用家里的一台amd a4-3300的电脑配合ipv6使用宝塔面板搭建本地服务器，但是这个电脑太tm老了。在更换新内存条和cpu之后要么没反应要么按一下开机键cpu风扇转一下？我估计是主板坏了，换个新的要三十多，当时我不打算为这破玩意再花钱毕竟那玩意年纪快赶我大了。</p>
-<p>要是拿另一个i5-9400f+gtx1650的电脑搭待机功率就六十多w要是24h开我家电表得倒着转。不过我也尝试了一下，结果宝塔面板本地网站页面怎么都访问不了，不是拒绝连接就是502，而且只能绑定ipv4地址，那玩意我上哪整去？专线一个月便宜的三四千贵的两万多。<br>你是不是要说动态公网ip用DDNS?想得美！黑龙江这破地方我电信联通都试过，根本不给你，整个就是个大内网跟他妈移动一样，甚至连路由器拨号都做不到，只能光猫自动拨号，因为我初中打gta掉线我就研究过连nat2都做不到普遍nat3。幸亏nat最多就4，要不然那帮家伙都能给你干个nat5。有点扯远了o(￣┰￣*)ゞ</p>
-<p>我在网上查到的绑定ipv6只有linux的（这里提一下，我一开始想试一下Windows service 2025在i tell you 上下载的但死活安不上网卡驱动，只能用手机usb共享网络🤬）</p>
-<p>后来我想到迷你主机行不行？听说待机才6w满载也就十几w。说干就干，当时就在闲鱼搞了个二手的迷你主机花一百多。</p>
-<p>结果我买的是d2550的，那个比n2807和j1800的能便宜几十块钱，之后我才知道这个只能装32位系统除非刷bios。</p>
-<p>那我想着大不了我装个32位的win10也照样用，谁知道这脑瘫东西进不了BIOS！安装u盘插进去按del没反应，f1到f12都不行。我第二遍尝试忘了按哪个来着还卡在中兴的logo打不开，那个页面正常开机都是一闪而过</p>
-<p>我u盘装不了那我用软件在线装吧，我选择win10 32位的他安装程序是64位，费半天劲下载完系统安装时重启直接报错，好几个软件都是这样</p>
-<p>那主机最后只能退了，退货的话来回运费都得我出，这一下啥也没干搭进去将近三十</p>
-<h2 id="云服务器建站"><a href="#云服务器建站" class="headerlink" title="云服务器建站"></a>云服务器建站</h2><p>市面上的云服务器普遍都好几百一年，像阿里云、腾讯云这些便宜的一年也要七八十，还是首年。阿里云倒是有个新人优惠38首年，但那个一天就上午十点和下午四点有两次每次一份几秒就没，我好几天都没抢到。</p>
-<h2 id="代码托管"><a href="#代码托管" class="headerlink" title="代码托管"></a>代码托管</h2><p>一开始我用GitHub Pages但是ssh密钥配置完了死活不让我访问，一直连接不上。<br>换成gitee还要实名认证，手拿身份证照片还要露出完整胳膊。他妈的我都费劲巴拉认证完了在发现gitee gages已经停止服务了<br>用GitLab pages那破玩意得单独配置管道，按教程整完主页还是没有pages设置界面，最后一次倒是可以，但是部署要身份认证，没有+86选项，换成国内的极狐gitlab又回到前一个问题了，遂放弃。<br>试过一次CSDN旗下的gitcode那个根本没pages，最后还是换回的GitHub Pages但这回竟然莫名其妙的好了</p>
-<p>现在基本上算是步入正轨，但偶尔也是会部署成功但网页没反应😔只能慢慢修了</p>
- 
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <div class="declare">
-      <ul class="post-copyright">
-        <li>
-          <i class="ri-copyright-line"></i>
-          <strong>Copyright： </strong>
-          
-          Copyright is owned by the author. For commercial reprints, please contact the author for authorization. For non-commercial reprints, please indicate the source.
-          
-        </li>
-      </ul>
-    </div>
-    
-    <footer class="article-footer">
-       
-<div class="share-btn">
-      <span class="share-sns share-outer">
-        <i class="ri-share-forward-line"></i>
-        分享
-      </span>
-      <div class="share-wrap">
-        <i class="arrow"></i>
-        <div class="share-icons">
-          
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="ri-weibo-fill"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="ri-wechat-fill"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="ri-qq-fill"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="ri-douban-line"></i>
-          </a>
-          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a> -->
-          
-          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
-            <i class="ri-facebook-circle-fill"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
-            <i class="ri-twitter-fill"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" data-type="google">
-            <i class="ri-google-fill"></i>
-          </a>
-        </div>
-      </div>
-</div>
-
-<div class="wx-share-modal">
-    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://example.com/2025/02/15/guanyvjianzhan/" alt="微信分享二维码">
-    </div>
-</div>
-
-<div id="share-mask"></div>  
-    </footer>
-  </div>
-
-   
-  <nav class="article-nav">
-    
-      <a href="/2025/04/19/%E8%93%9D%E7%89%99%E5%BC%B9%E7%AA%97%E6%94%BB%E5%87%BB%E8%8B%B9%E6%9E%9C%E8%AE%BE%E5%A4%87/" class="article-nav-link">
-        <strong class="article-nav-caption">上一篇</strong>
-        <div class="article-nav-title">
-          
-            蓝牙弹窗攻击苹果设备
-          
-        </div>
-      </a>
-    
-    
-      <a href="/2025/02/14/seshi/" class="article-nav-link">
-        <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">从今天起，记录时间的声音</div>
-      </a>
-    
-  </nav>
-
-  
-   
-  
-   
-    <script src="https://cdn.staticfile.org/twikoo/1.4.18/twikoo.all.min.js"></script>
-    <div id="twikoo" class="twikoo"></div>
-    <script>
-        twikoo.init({
-            envId: ""
-        })
-    </script>
- 
 </article>
+      
+      
+    </div>
+  </div>
+  
+  
 
+  
 </section>
       <footer class="footer">
   <div class="outer">
@@ -373,22 +246,6 @@
 <script src="/js/lazyload.min.js"></script>
 
 <!-- Tocbot -->
- 
-<script src="/js/tocbot.min.js"></script>
-
-<script>
-  tocbot.init({
-    tocSelector: ".tocbot",
-    contentSelector: ".article-entry",
-    headingSelector: "h1, h2, h3, h4, h5, h6",
-    hasInnerContainers: true,
-    scrollSmooth: true,
-    scrollContainer: "main",
-    positionFixedSelector: ".tocbot",
-    positionFixedClass: "is-position-fixed",
-    fixedSidebarOffset: "auto",
-  });
-</script>
 
 <script src="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.js"></script>
 <link

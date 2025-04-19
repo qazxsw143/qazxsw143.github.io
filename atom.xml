@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-02-18T03:52:39.095Z</updated>
+  <updated>2025-04-19T04:50:05.585Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>蓝牙弹窗攻击苹果设备</title>
+    <link href="http://example.com/2025/04/19/%E8%93%9D%E7%89%99%E5%BC%B9%E7%AA%97%E6%94%BB%E5%87%BB%E8%8B%B9%E6%9E%9C%E8%AE%BE%E5%A4%87/"/>
+    <id>http://example.com/2025/04/19/%E8%93%9D%E7%89%99%E5%BC%B9%E7%AA%97%E6%94%BB%E5%87%BB%E8%8B%B9%E6%9E%9C%E8%AE%BE%E5%A4%87/</id>
+    <published>2025-04-19T03:09:07.000Z</published>
+    <updated>2025-04-19T04:50:05.585Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="evilapplejuice"><a href="#evilapplejuice" class="headerlink" title="evilapplejuice"></a>evilapplejuice</h1><p>这个项目是基于github的EvilAppleJuice项目开发<br>相关文件跳转<a href="https://github.com/ckcr4lyf/EvilAppleJuice-ESP32">邪恶苹果汁</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;evilapplejuice&quot;&gt;&lt;a href=&quot;#evilapplejuice&quot; class=&quot;headerlink&quot; title=&quot;evilapplejuice&quot;&gt;&lt;/a&gt;evilapplejuice&lt;/h1&gt;&lt;p&gt;这个项目是基于github的EvilAppl</summary>
+      
+    
+    
+    
+    <category term="科技区" scheme="http://example.com/categories/%E7%A7%91%E6%8A%80%E5%8C%BA/"/>
+    
+    
+    <category term="容易挨揍" scheme="http://example.com/tags/%E5%AE%B9%E6%98%93%E6%8C%A8%E6%8F%8D/"/>
+    
+  </entry>
   
   <entry>
     <title>关于搭建这个博客的过程</title>
@@ -43,7 +67,7 @@
     <link href="http://example.com/2025/02/14/seshi/"/>
     <id>http://example.com/2025/02/14/seshi/</id>
     <published>2025-02-14T10:07:26.000Z</published>
-    <updated>2025-02-14T10:28:14.750Z</updated>
+    <updated>2025-04-19T04:25:44.866Z</updated>
     
     <content type="html"><![CDATA[<p>大家好！我是Mr.Yang，一名热爱创作与分享的灵魂写手。我的个人博客是我表达想法、记录生活、探索世界的一方小天地。</p><p>在这里，我会分享我对生活的感悟、对世界的思考，以及那些让我怦然心动的故事和观点。<br>无论是文字、影像，还是其他形式的创意表达，我都希望能通过这个平台，与你一起发现更多的美好与可能。</p><p>如果你喜欢我的内容，不妨留下你的足迹；如果你有任何想法或建议，我也非常乐意听听你的声音。让我们一起，在文字的海洋中航行，碰撞出思想的火花！</p><h3 id="技术栈速览"><a href="#技术栈速览" class="headerlink" title="技术栈速览"></a>技术栈速览</h3><pre><code class="language-bash">静态生成: Hexo | 主题: Ayer部署: GitHub Pages | CI: GitHub Actions</code></pre>]]></content>
     
