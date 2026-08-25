@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>Archives |  杨同学的秘密基地</title>
+      <title> 杨同学的秘密基地</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/favicon.ico" />
@@ -52,7 +52,59 @@
     
       
     <main class="content on">
-      <section class="outer">
+      
+<section class="cover">
+    
+      
+      <a class="forkMe" href="https://github.com/qazxsw143/qazxsw143.github.io"
+        target="_blank"><img width="149" height="149" src="/images/forkme.png"
+          class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
+    
+  <div class="cover-frame">
+    <div class="bg-box">
+      <img src="/images/cover1.jpg" alt="image frame" />
+    </div>
+    <div class="cover-inner text-center text-white">
+      <h1><a href="/">杨同学的秘密基地</a></h1>
+      <div id="subtitle-box">
+        
+        <span id="subtitle"></span>
+        
+      </div>
+      <div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="cover-learn-more">
+    <a href="javascript:void(0)" class="anchor"><i class="ri-arrow-down-line"></i></a>
+  </div>
+</section>
+
+
+
+<script src="https://cdn.staticfile.org/typed.js/2.0.12/typed.min.js"></script>
+
+
+<!-- Subtitle -->
+
+  <script>
+    try {
+      var typed = new Typed("#subtitle", {
+        strings: ['消灭人类暴政 世界属于三体', '主不在乎', '给岁月以文明，而不是给文明以岁月'],
+        startDelay: 0,
+        typeSpeed: 200,
+        loop: true,
+        backSpeed: 100,
+        showCursor: true
+      });
+    } catch (err) {
+      console.log(err)
+    }
+  </script>
+  
+<div id="main">
+  <section class="outer">
   
   <ul class="ads">
     
@@ -65,245 +117,128 @@
 </ul>
   
   
+  
+
+<div class="notice" style="margin-top:50px">
+    <i class="ri-heart-fill"></i>
+    <div class="notice-content" id="broad"></div>
+</div>
+<script type="text/javascript">
+    fetch('https://v1.hitokoto.cn')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("broad").innerHTML = data.hitokoto;
+        })
+        .catch(console.error)
+</script>
+
+<style>
+    .notice {
+        padding: 20px;
+        border: 1px dashed #e6e6e6;
+        color: #969696;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        background: #fbfbfb50;
+        border-radius: 10px;
+    }
+
+    .notice i {
+        float: left;
+        color: #999;
+        font-size: 16px;
+        padding-right: 10px;
+        vertical-align: middle;
+        margin-top: -2px;
+    }
+
+    .notice-content {
+        display: initial;
+        vertical-align: middle;
+    }
+</style>
+  
   <article class="articles">
     
     
-    <h1 class="page-type-title">Archives</h1>
     
     
-  
-  
-  
-  
-  
-  
-  <div class="archives-wrap">
-    <div class="archive-year-wrap">
-      <a href="/archives/2026" class="archive-year">2026</a>
+    <article
+  id="post-关于搭建这个博客的过程"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2026/05/22/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/"
+    >关于搭建这个博客的过程</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2026/05/22/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/" class="article-date">
+  <time datetime="2026-05-22T14:50:28.000Z" itemprop="datePublished">2026-05-22</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E6%95%B0%E7%A0%81/">数码</a>
+  </div>
+   
     </div>
-    <div class="archives">
       
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2026/08/26/1-5%E7%AB%A0%E7%AE%80%E7%AD%94%E9%A2%98/" class="archive-article-date">
-  <time datetime="2026-08-25T19:10:19.000Z" itemprop="datePublished">08/26</time>
-</a>
+    <div class="article-entry" itemprop="articleBody">
        
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2026/08/26/1-5%E7%AB%A0%E7%AE%80%E7%AD%94%E9%A2%98/"
-    >1-5章简答题</a> 
-</h2>
+  <h1 id="本地建站"><a href="#本地建站" class="headerlink" title="本地建站"></a>本地建站</h1><p>其实一开始我是打算用家里的一台amd a4-3300的电脑配合ipv6使用宝塔面板搭建本地服务器，但是这个电脑太tm老了。在更换新内存条和cpu之后要么没反应要么按一下开机键cpu风扇转一下？我估计是主板坏了，换个新的要三十多，当时我不打算为这破玩意再花钱毕竟那玩意年纪快赶我大了。</p>
+<p>要是拿另一个i5-9400f+gtx1650的电脑搭待机功率就六十多w要是24h开我家电表得倒着转。不过我也尝试了一下，结果宝塔面板本地网站页面怎么都访问不了，不是拒绝连接就是502，而且只能绑定ipv4地址，那玩意我上哪整去？专线一个月便宜的三四千贵的两万多。<br>你是不是要说动态公网ip用DDNS?想得美！黑龙江这破地方我电信联通都试过，根本不给你，整个就是个大内网跟他妈移动一样，甚至连路由器拨号都做不到，只能光猫自动拨号，因为我初中打gta掉线我就研究过连nat2都做不到普遍nat3。幸亏nat最多就4，要不然那帮家伙都能给你干个nat5。有点扯远了o(￣┰￣*)ゞ</p>
+<p>我在网上查到的绑定ipv6只有linux的（这里提一下，我一开始想试一下Windows service 2025在i tell you 上下载的但死活安不上网卡驱动，只能用手机usb共享网络🤬）</p>
+<p>后来我想到迷你主机行不行？听说待机才6w满载也就十几w。说干就干，当时就在闲鱼搞了个二手的迷你主机花一百多。</p>
+<p>结果我买的是d2550的，那个比n2807和j1800的能便宜几十块钱，之后我才知道这个只能装32位系统除非刷bios。</p>
+<p>那我想着大不了我装个32位的win10也照样用，谁知道这脑瘫东西进不了BIOS！安装u盘插进去按del没反应，f1到f12都不行。我第二遍尝试忘了按哪个来着还卡在中兴的logo打不开，那个页面正常开机都是一闪而过</p>
+<p>我u盘装不了那我用软件在线装吧，我选择win10 32位的他安装程序是64位，费半天劲下载完系统安装时重启直接报错，好几个软件都是这样</p>
+<p>那主机最后只能退了，退货的话来回运费都得我出，这一下啥也没干搭进去将近三十</p>
+<h1 id="云服务器建站"><a href="#云服务器建站" class="headerlink" title="云服务器建站"></a>云服务器建站</h1><p>市面上的云服务器普遍都好几百一年，像阿里云、腾讯云这些便宜的一年也要七八十，还是首年。阿里云倒是有个新人优惠38首年，但那个一天就上午十点和下午四点有两次每次一份几秒就没，我好几天都没抢到。</p>
+<h1 id="代码托管"><a href="#代码托管" class="headerlink" title="代码托管"></a>代码托管</h1><p>一开始我用GitHub Pages但是ssh密钥配置完了死活不让我访问，一直连接不上。<br>换成gitee还要实名认证，手拿身份证照片还要露出完整胳膊。他妈的我都费劲巴拉认证完了在发现gitee gages已经停止服务了<br>用GitLab pages那破玩意得单独配置管道，按教程整完主页还是没有pages设置界面，最后一次倒是可以，但是部署要身份认证，没有+86选项，换成国内的极狐gitlab又回到前一个问题了，遂放弃。<br>试过一次CSDN旗下的gitcode那个根本没pages，最后还是换回的GitHub Pages但这回竟然莫名其妙的好了</p>
+<p>现在基本上算是步入正轨，但偶尔也是会部署成功但网页没反应😔只能慢慢修了</p>
  
-
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2026/08/26/%E7%BD%AE%E9%A1%B6%E6%96%87%E7%AB%A0/" class="archive-article-date">
-  <time datetime="2026-08-25T16:25:28.000Z" itemprop="datePublished">08/26</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2026/08/26/%E7%BD%AE%E9%A1%B6%E6%96%87%E7%AB%A0/"
-    >置顶文章</a> 
-</h2>
- 
-
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2026/08/23/%E4%BA%94%E7%99%BE%E9%81%93%E9%80%89%E6%8B%A9%E9%A2%98%E9%83%A8%E5%88%86/" class="archive-article-date">
-  <time datetime="2026-08-23T08:34:03.000Z" itemprop="datePublished">08/23</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2026/08/23/%E4%BA%94%E7%99%BE%E9%81%93%E9%80%89%E6%8B%A9%E9%A2%98%E9%83%A8%E5%88%86/"
-    >选择题部分</a> 
-</h2>
- 
-
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2026/07/02/%E7%AC%AC%E4%BA%94%E7%AB%A0%E8%80%83%E7%82%B9%E5%8F%A3%E8%AF%80/" class="archive-article-date">
-  <time datetime="2026-07-02T15:47:15.000Z" itemprop="datePublished">07/02</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2026/07/02/%E7%AC%AC%E4%BA%94%E7%AB%A0%E8%80%83%E7%82%B9%E5%8F%A3%E8%AF%80/"
-    >第五章考点口诀</a> 
-</h2>
- 
-
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2026/07/02/%E7%AC%AC%E4%BA%94%E7%AB%A0%E6%B6%88%E5%8C%96%E4%B8%8E%E5%90%B8%E6%94%B6%20%E5%85%A8%E8%80%83%E7%82%B9+%E5%8F%A3%E8%AF%80+%E9%85%8D%E5%A5%97%E4%B9%A0%E9%A2%98/" class="archive-article-date">
-  <time datetime="2026-07-02T14:57:07.000Z" itemprop="datePublished">07/02</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2026/07/02/%E7%AC%AC%E4%BA%94%E7%AB%A0%E6%B6%88%E5%8C%96%E4%B8%8E%E5%90%B8%E6%94%B6%20%E5%85%A8%E8%80%83%E7%82%B9+%E5%8F%A3%E8%AF%80+%E9%85%8D%E5%A5%97%E4%B9%A0%E9%A2%98/"
-    >第五章 消化与吸收 全考点+口诀+配套习题</a> 
-</h2>
- 
-
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2026/06/15/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%91%BC%E5%90%B8%E5%85%A8%E8%80%83%E7%82%B9-%E5%8F%A3%E8%AF%80-%E9%85%8D%E5%A5%97%E4%B9%A0%E9%A2%98/" class="archive-article-date">
-  <time datetime="2026-06-15T08:34:03.000Z" itemprop="datePublished">06/15</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2026/06/15/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E5%91%BC%E5%90%B8%E5%85%A8%E8%80%83%E7%82%B9-%E5%8F%A3%E8%AF%80-%E9%85%8D%E5%A5%97%E4%B9%A0%E9%A2%98/"
-    >第四章 呼吸全考点+口诀+配套习题</a> 
-</h2>
- 
-
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2026/06/15/%E8%A1%80%E6%B6%B2%E7%94%9F%E7%90%86/" class="archive-article-date">
-  <time datetime="2026-06-15T08:23:28.000Z" itemprop="datePublished">06/15</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2026/06/15/%E8%A1%80%E6%B6%B2%E7%94%9F%E7%90%86/"
-    >第二章 血液生理</a> 
-</h2>
- 
-
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2026/06/15/%E5%91%BC%E5%90%B8%E7%94%9F%E7%90%86%E6%A0%B8%E5%BF%83%E8%80%83%E7%82%B9%E8%83%8C%E8%AF%B5%E7%89%88/" class="archive-article-date">
-  <time datetime="2026-06-15T08:13:31.000Z" itemprop="datePublished">06/15</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2026/06/15/%E5%91%BC%E5%90%B8%E7%94%9F%E7%90%86%E6%A0%B8%E5%BF%83%E8%80%83%E7%82%B9%E8%83%8C%E8%AF%B5%E7%89%88/"
-    >呼吸生理核心考点背诵版</a> 
-</h2>
- 
-
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-房室结0期去极化">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2026/06/11/%E5%AE%8C%E6%95%B4%E5%8C%BA%E5%88%AB/" class="archive-article-date">
-  <time datetime="2026-06-11T12:54:50.000Z" itemprop="datePublished">06/11</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2026/06/11/%E5%AE%8C%E6%95%B4%E5%8C%BA%E5%88%AB/"
-    >房室结0期去极化完整区别</a> 
-</h2>
- 
-
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2026/06/08/%E5%8A%A8%E7%89%A9%E7%94%9F%E7%90%861-3%E7%AB%A0%E4%B8%BB%E8%A7%82%E9%A2%98%E8%83%8C%E8%AF%B5%E6%A0%87%E5%87%86%E7%AD%94%E6%A1%88/" class="archive-article-date">
-  <time datetime="2026-06-08T12:51:32.000Z" itemprop="datePublished">06/08</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2026/06/08/%E5%8A%A8%E7%89%A9%E7%94%9F%E7%90%861-3%E7%AB%A0%E4%B8%BB%E8%A7%82%E9%A2%98%E8%83%8C%E8%AF%B5%E6%A0%87%E5%87%86%E7%AD%94%E6%A1%88/"
-    >动物生理1-3章主观题背诵标准答案</a> 
-</h2>
- 
-
-    </header>
-    
-    
-  </div>
-</article>
-      
+      <!-- reward -->
       
     </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%BB%8B%E7%BB%8D/" rel="tag">介绍</a></li></ul>
+
+    </footer>
   </div>
-  
+
+   
+    
+</article>
+
+    
+  </article>
   
 
   
   <nav class="page-nav">
     
-    <span class="page-number current">1</span><a class="page-number" href="/archives/page/2/">2</a><a class="extend next" rel="next" href="/archives/page/2/">下一页</a>
+    <a class="extend prev" rel="prev" href="/">上一页</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
   </nav>
   
 </section>
+</div>
+
       <footer class="footer">
   <div class="outer">
     <ul>
